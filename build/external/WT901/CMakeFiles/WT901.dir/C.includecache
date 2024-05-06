@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zejie123/Desktop/imu_qt/external/WT901/REG.h
+
+/home/zejie123/Desktop/imu_qt/external/WT901/wit_c_sdk.c
+wit_c_sdk.h
+/home/zejie123/Desktop/imu_qt/external/WT901/wit_c_sdk.h
+
+/home/zejie123/Desktop/imu_qt/external/WT901/wit_c_sdk.h
+stdint.h
+-
+stdio.h
+-
+string.h
+-
+REG.h
+/home/zejie123/Desktop/imu_qt/external/WT901/REG.h
+

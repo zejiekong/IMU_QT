@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/wt901.dir/wt901_autogen/mocs_compilation.cpp.o CMakeFiles/wt901.dir/wt901.cpp.o CMakeFiles/wt901.dir/__/src/imu.cpp.o  -o wt901  /usr/lib/x86_64-linux-gnu/libQt5SerialPort.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 

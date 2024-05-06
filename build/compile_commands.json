@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/zejie123/Desktop/imu_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR=\\\"/home/zejie123/Desktop/imu_qt/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/home/zejie123/Desktop/imu_qt/build/imu_test_autogen/include -I/home/zejie123/Desktop/imu_qt/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -isystem /usr/include/x86_64-linux-gnu/qt5/QtTest  -g   -fPIC -std=gnu++11 -o CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.o -c /home/zejie123/Desktop/imu_qt/build/imu_test_autogen/mocs_compilation.cpp",
+  "file": "/home/zejie123/Desktop/imu_qt/build/imu_test_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/zejie123/Desktop/imu_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR=\\\"/home/zejie123/Desktop/imu_qt/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/home/zejie123/Desktop/imu_qt/build/imu_test_autogen/include -I/home/zejie123/Desktop/imu_qt/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -isystem /usr/include/x86_64-linux-gnu/qt5/QtTest  -g   -fPIC -std=gnu++11 -o CMakeFiles/imu_test.dir/src/imu_test.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu_test.cpp",
+  "file": "/home/zejie123/Desktop/imu_qt/src/imu_test.cpp"
+},
+{
+  "directory": "/home/zejie123/Desktop/imu_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_TESTCASE_BUILDDIR=\\\"/home/zejie123/Desktop/imu_qt/build\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -I/home/zejie123/Desktop/imu_qt/build/imu_test_autogen/include -I/home/zejie123/Desktop/imu_qt/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort -isystem /usr/include/x86_64-linux-gnu/qt5/QtTest  -g   -fPIC -std=gnu++11 -o CMakeFiles/imu_test.dir/src/imu.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu.cpp",
+  "file": "/home/zejie123/Desktop/imu_qt/src/imu.cpp"
+},
+{
+  "directory": "/home/zejie123/Desktop/imu_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/include -I/home/zejie123/Desktop/imu_qt/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort  -g   -fPIC -std=gnu++11 -o CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.o -c /home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/mocs_compilation.cpp",
+  "file": "/home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/zejie123/Desktop/imu_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/include -I/home/zejie123/Desktop/imu_qt/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort  -g   -fPIC -std=gnu++11 -o CMakeFiles/imu_qt.dir/src/main.cpp.o -c /home/zejie123/Desktop/imu_qt/src/main.cpp",
+  "file": "/home/zejie123/Desktop/imu_qt/src/main.cpp"
+},
+{
+  "directory": "/home/zejie123/Desktop/imu_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/include -I/home/zejie123/Desktop/imu_qt/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort  -g   -fPIC -std=gnu++11 -o CMakeFiles/imu_qt.dir/src/window.cpp.o -c /home/zejie123/Desktop/imu_qt/src/window.cpp",
+  "file": "/home/zejie123/Desktop/imu_qt/src/window.cpp"
+},
+{
+  "directory": "/home/zejie123/Desktop/imu_qt/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_WIDGETS_LIB -I/home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/include -I/home/zejie123/Desktop/imu_qt/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialPort  -g   -fPIC -std=gnu++11 -o CMakeFiles/imu_qt.dir/src/imu.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu.cpp",
+  "file": "/home/zejie123/Desktop/imu_qt/src/imu.cpp"
+}
+]

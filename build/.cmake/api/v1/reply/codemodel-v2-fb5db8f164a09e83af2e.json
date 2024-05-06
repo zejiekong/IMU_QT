@@ -1,0 +1,86 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "imu_qt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_qt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_qt-Debug-6bc9407e77c3d0f53e9e.json",
+					"name" : "imu_qt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_qt_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_qt_autogen-Debug-f503b605a98c5c9bea16.json",
+					"name" : "imu_qt_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_test-Debug-cf5485ba66abae86b14d.json",
+					"name" : "imu_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_test_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_test_autogen-Debug-fa700265e0f4c5a975c8.json",
+					"name" : "imu_test_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zejie123/Desktop/imu_qt/build",
+		"source" : "/home/zejie123/Desktop/imu_qt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

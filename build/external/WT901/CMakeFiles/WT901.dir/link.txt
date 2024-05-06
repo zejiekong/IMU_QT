@@ -1,0 +1,2 @@
+/usr/bin/ar qc libWT901.a  CMakeFiles/WT901.dir/WT901_autogen/mocs_compilation.cpp.o CMakeFiles/WT901.dir/wit_c_sdk.c.o
+/usr/bin/ranlib libWT901.a

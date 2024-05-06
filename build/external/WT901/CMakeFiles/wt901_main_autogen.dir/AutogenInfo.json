@@ -1,0 +1,76 @@
+{
+	"BUILD_DIR" : "/home/zejie123/Desktop/imu_qt/build/external/WT901/wt901_main_autogen",
+	"CMAKE_BINARY_DIR" : "/home/zejie123/Desktop/imu_qt/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/zejie123/Desktop/imu_qt/build/external/WT901",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/zejie123/Desktop/imu_qt/external/WT901",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/zejie123/Desktop/imu_qt",
+	"HEADERS" : 
+	[
+		[
+			"/home/zejie123/Desktop/imu_qt/external/WT901/serial.h",
+			"MU",
+			"EWIEGA46WW/moc_serial.cpp"
+		],
+		[
+			"/home/zejie123/Desktop/imu_qt/external/WT901/wit_c_sdk.h",
+			"MU",
+			"EWIEGA46WW/moc_wit_c_sdk.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/zejie123/Desktop/imu_qt/build/external/WT901/wt901_main_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/zejie123/Desktop/imu_qt/build/external/WT901/wt901_main_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/zejie123/Desktop/imu_qt/include",
+		"/home/zejie123/Desktop/imu_qt/external/WT901",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/g++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/zejie123/Desktop/imu_qt/build/external/WT901/wt901_main_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 2,
+	"PARSE_CACHE_FILE" : "/home/zejie123/Desktop/imu_qt/build/external/WT901/CMakeFiles/wt901_main_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/zejie123/Desktop/imu_qt/build/external/WT901/CMakeFiles/wt901_main_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/zejie123/Desktop/imu_qt/external/WT901/main.c", "MU" ],
+		[ "/home/zejie123/Desktop/imu_qt/external/WT901/serial.c", "MU" ],
+		[ "/home/zejie123/Desktop/imu_qt/external/WT901/wit_c_sdk.c", "MU" ]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
