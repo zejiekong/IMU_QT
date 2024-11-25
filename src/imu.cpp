@@ -3,10 +3,10 @@
 #include <QDebug>
 #include <QThread>
 
-Imu::Imu(QObject* parent):QSerialPort(parent)
+Imu::Imu(QObject* parent):QSerialPort(parent),m_acc{},m_angle{},m_vel{},m_mag{}
 {
     //connect readyRead to decode slot
-    connect(this,&QIODevice::readyRead,this,&Imu::parseData);
+    connect(this,&QSerialPort::readyRead,this,&Imu::parseData);
 }
 
 void Imu::autoPortScanner(bool checked)
@@ -44,9 +44,9 @@ void Imu::start()
     if(this->open(QIODevice::ReadWrite))
     {
         emit statusUpdate("Sensor Connected\n");
-        while(Imu::waitForReadyRead(2000)){}
+        while(Imu::waitForReadyRead()){}
+        this->parseData();
         emit statusUpdate("No Sensor Detected\n");
-
         this->close();
     }
 
@@ -63,26 +63,22 @@ void Imu::parseData()
         {
             case '\x51':
                 data.append(this->read(9));
-                m_acc = parseAcc(data);
-                if(m_acc) emit dataParsed(WITMOTION::ACC,m_acc);
+                if(parseAcc(m_acc,data)) emit dataParsed(WITMOTION::ACC,m_acc);
                 break;
 
             case '\x52':
                 data.append(this->read(9));
-                m_vel = parseAngVel(data);
-                if(m_vel) emit dataParsed(WITMOTION::ANG_VEL,m_vel);
+                if(parseAngVel(m_vel,data)) emit dataParsed(WITMOTION::ANG_VEL,m_vel);
                 break;
 
             case '\x53':
                 data.append(this->read(9));
-                m_angle = parseAngle(data);
-                if(m_angle) emit dataParsed(WITMOTION::ANGLE,m_angle);
+                if(parseAngle(m_angle,data)) emit dataParsed(WITMOTION::ANGLE,m_angle);
                 break;
 
             case '\x54':
                 data.append(this->read(9));
-                m_mag = parseMag(data);
-                if(m_mag) emit dataParsed(WITMOTION::MAG,m_mag);
+                if(parseMag(m_mag,data)) emit dataParsed(WITMOTION::MAG,m_mag);
                 break;
 
             default:
@@ -97,58 +93,58 @@ bool Imu::checkSum(QByteArray byte)
     for(int i=0;i<10;i++)
     {
         sum += byte[i];
+    
     }
-    return (sum==byte[10])?true:false;
+    qDebug() << byte.size();
+    return sum==byte[10];
 }
 
-float* Imu::parseAcc(QByteArray data)
+void Imu::parseByte(float* imu_data, QByteArray data)
+{
+    imu_data[0] = (uint16_t)data[3] << 8|(uint16_t)data[2];
+    imu_data[1] = (uint16_t)data[5] << 8|(uint16_t)data[4];
+    imu_data[2] = (uint16_t)data[7] << 8|(uint16_t)data[6];
+}
+
+bool Imu::parseAcc(float* imu_data,QByteArray data)
 {
     if(this->checkSum(data))
     {
-        float* acc = new float[3];
-        acc[0] = (((uint16_t)data[3] << 8)|(uint16_t)data[2])/32768.0f*16.0f*G;
-        acc[1] = (((uint16_t)data[5] << 8)|(uint16_t)data[4])/32768.0f*16.0f*G;
-        acc[2] = (((uint16_t)data[7] << 8)|(uint16_t)data[6])/32768.0f*16.0f*G;
-        return acc;
+        this->parseByte(imu_data,data);
+        for(int i=0;i<3;i++) imu_data[i] = imu_data[i]/32768.0f * 16.0f * G;
+        return true;
     }
-    return nullptr;
+    return false;
 }
 
-float* Imu::parseAngVel(QByteArray data)
+bool Imu::parseAngVel(float* imu_data,QByteArray data)
 {
     if(this->checkSum(data))
     {
-        float* ang_vel = new float[3];
-        ang_vel[0] = (((uint16_t)data[3] << 8)|(uint16_t)data[2])/32768.0f*2000.0f;
-        ang_vel[1] = (((uint16_t)data[5] << 8)|(uint16_t)data[4])/32768.0f*2000.0f;
-        ang_vel[2] = (((uint16_t)data[7] << 8)|(uint16_t)data[6])/32768.0f*2000.0f;
-        return ang_vel;
+        this->parseByte(imu_data,data);
+        for(int i =0;i<3;i++) imu_data[i] = imu_data[i]/32768.0f * 2000.0f;
+        return true;
     }
-    return nullptr; 
+    return false;
 }
 
-float* Imu::parseAngle(QByteArray data)
+bool Imu::parseAngle(float* imu_data, QByteArray data)
 {
     if(this->checkSum(data))
     {
-        float* angle = new float[3];
-        angle[0] = (((uint16_t)data[3] << 8 )|(uint16_t)data[2])/32768.0f*180.0f;
-        angle[1] = (((uint16_t)data[5] << 8 )|(uint16_t)data[4])/32768.0f*180.0f;
-        angle[2] = (((uint16_t)data[7] << 8 )|(uint16_t)data[6])/32768.0f*180.0f;
-        return angle;
+        this->parseByte(imu_data,data);
+        for(int i=0;i<3;i++) imu_data[i] = imu_data[i]/32768.0f*180.0f;
+        return true;
     }
-    return nullptr; 
+    return false;
 }
 
-float* Imu::parseMag(QByteArray data)
+bool Imu::parseMag(float* imu_data, QByteArray data)
 {
     if(this->checkSum(data))
     {
-        float* mag = new float[3];
-        mag[0] = (((uint16_t)data[3] << 8) |(uint16_t) data[2]);
-        mag[1] = (((uint16_t)data[5] << 8) |(uint16_t) data[4]);
-        mag[2] = (((uint16_t)data[7] << 8) |(uint16_t) data[6]);
-        return mag;
+        this->parseByte(imu_data,data);
+        return true;
     }
-    return nullptr; 
+    return false;
 }

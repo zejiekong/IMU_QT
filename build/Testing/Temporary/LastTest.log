@@ -1,10 +1,10 @@
-Start testing: May 06 15:33 +08
+Start testing: Nov 24 10:30 +08
 ----------------------------------------------------------
 1/1 Testing: imu_test
 1/1 Test: imu_test
 Command: "/home/zejie123/Desktop/imu_qt/build/imu_test"
 Directory: /home/zejie123/Desktop/imu_qt/build
-"imu_test" start time: May 06 15:33 +08
+"imu_test" start time: Nov 24 10:30 +08
 Output:
 ----------------------------------------------------------
 qt5ct: using qt5ct plugin
@@ -13,14 +13,14 @@ Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared
 PASS   : TestImu::initTestCase()
 PASS   : TestImu::dataReceived()
 PASS   : TestImu::cleanupTestCase()
-Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 3ms
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 1ms
 ********* Finished testing of TestImu *********
 <end of output>
-Test time =   0.37 sec
+Test time =   1.69 sec
 ----------------------------------------------------------
 Test Passed.
-"imu_test" end time: May 06 15:33 +08
-"imu_test" time elapsed: 00:00:00
+"imu_test" end time: Nov 24 10:30 +08
+"imu_test" time elapsed: 00:00:01
 ----------------------------------------------------------
 
-End testing: May 06 15:33 +08
+End testing: Nov 24 10:30 +08

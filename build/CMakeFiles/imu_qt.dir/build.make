@@ -60,54 +60,54 @@ include CMakeFiles/imu_qt.dir/flags.make
 CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.o: CMakeFiles/imu_qt.dir/flags.make
 CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.o: imu_qt_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.o -c /home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/mocs_compilation.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.o -c /home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/mocs_compilation.cpp
 
 CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/mocs_compilation.cpp > CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/mocs_compilation.cpp > CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/mocs_compilation.cpp -o CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/build/imu_qt_autogen/mocs_compilation.cpp -o CMakeFiles/imu_qt.dir/imu_qt_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/imu_qt.dir/src/main.cpp.o: CMakeFiles/imu_qt.dir/flags.make
 CMakeFiles/imu_qt.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imu_qt.dir/src/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_qt.dir/src/main.cpp.o -c /home/zejie123/Desktop/imu_qt/src/main.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_qt.dir/src/main.cpp.o -c /home/zejie123/Desktop/imu_qt/src/main.cpp
 
 CMakeFiles/imu_qt.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_qt.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/main.cpp > CMakeFiles/imu_qt.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/main.cpp > CMakeFiles/imu_qt.dir/src/main.cpp.i
 
 CMakeFiles/imu_qt.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_qt.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/main.cpp -o CMakeFiles/imu_qt.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/main.cpp -o CMakeFiles/imu_qt.dir/src/main.cpp.s
 
 CMakeFiles/imu_qt.dir/src/window.cpp.o: CMakeFiles/imu_qt.dir/flags.make
 CMakeFiles/imu_qt.dir/src/window.cpp.o: ../src/window.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imu_qt.dir/src/window.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_qt.dir/src/window.cpp.o -c /home/zejie123/Desktop/imu_qt/src/window.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_qt.dir/src/window.cpp.o -c /home/zejie123/Desktop/imu_qt/src/window.cpp
 
 CMakeFiles/imu_qt.dir/src/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_qt.dir/src/window.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/window.cpp > CMakeFiles/imu_qt.dir/src/window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/window.cpp > CMakeFiles/imu_qt.dir/src/window.cpp.i
 
 CMakeFiles/imu_qt.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_qt.dir/src/window.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/window.cpp -o CMakeFiles/imu_qt.dir/src/window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/window.cpp -o CMakeFiles/imu_qt.dir/src/window.cpp.s
 
 CMakeFiles/imu_qt.dir/src/imu.cpp.o: CMakeFiles/imu_qt.dir/flags.make
 CMakeFiles/imu_qt.dir/src/imu.cpp.o: ../src/imu.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imu_qt.dir/src/imu.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_qt.dir/src/imu.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_qt.dir/src/imu.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu.cpp
 
 CMakeFiles/imu_qt.dir/src/imu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_qt.dir/src/imu.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/imu.cpp > CMakeFiles/imu_qt.dir/src/imu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/imu.cpp > CMakeFiles/imu_qt.dir/src/imu.cpp.i
 
 CMakeFiles/imu_qt.dir/src/imu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_qt.dir/src/imu.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/imu.cpp -o CMakeFiles/imu_qt.dir/src/imu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/imu.cpp -o CMakeFiles/imu_qt.dir/src/imu.cpp.s
 
 # Object files for target imu_qt
 imu_qt_OBJECTS = \
@@ -124,9 +124,13 @@ imu_qt: CMakeFiles/imu_qt.dir/src/main.cpp.o
 imu_qt: CMakeFiles/imu_qt.dir/src/window.cpp.o
 imu_qt: CMakeFiles/imu_qt.dir/src/imu.cpp.o
 imu_qt: CMakeFiles/imu_qt.dir/build.make
-imu_qt: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
-imu_qt: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
 imu_qt: /usr/lib/x86_64-linux-gnu/libQt5SerialPort.so.5.12.8
+imu_qt: /usr/lib/x86_64-linux-gnu/libQt5QuickWidgets.so.5.12.8
+imu_qt: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+imu_qt: /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.12.8
+imu_qt: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+imu_qt: /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.12.8
+imu_qt: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
 imu_qt: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 imu_qt: CMakeFiles/imu_qt.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable imu_qt"

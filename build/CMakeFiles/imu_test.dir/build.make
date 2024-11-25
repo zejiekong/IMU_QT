@@ -60,41 +60,41 @@ include CMakeFiles/imu_test.dir/flags.make
 CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.o: CMakeFiles/imu_test.dir/flags.make
 CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.o: imu_test_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.o -c /home/zejie123/Desktop/imu_qt/build/imu_test_autogen/mocs_compilation.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.o -c /home/zejie123/Desktop/imu_qt/build/imu_test_autogen/mocs_compilation.cpp
 
 CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/build/imu_test_autogen/mocs_compilation.cpp > CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/build/imu_test_autogen/mocs_compilation.cpp > CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/build/imu_test_autogen/mocs_compilation.cpp -o CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/build/imu_test_autogen/mocs_compilation.cpp -o CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/imu_test.dir/src/imu_test.cpp.o: CMakeFiles/imu_test.dir/flags.make
 CMakeFiles/imu_test.dir/src/imu_test.cpp.o: ../src/imu_test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imu_test.dir/src/imu_test.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_test.dir/src/imu_test.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu_test.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_test.dir/src/imu_test.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu_test.cpp
 
 CMakeFiles/imu_test.dir/src/imu_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_test.dir/src/imu_test.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/imu_test.cpp > CMakeFiles/imu_test.dir/src/imu_test.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/imu_test.cpp > CMakeFiles/imu_test.dir/src/imu_test.cpp.i
 
 CMakeFiles/imu_test.dir/src/imu_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_test.dir/src/imu_test.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/imu_test.cpp -o CMakeFiles/imu_test.dir/src/imu_test.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/imu_test.cpp -o CMakeFiles/imu_test.dir/src/imu_test.cpp.s
 
 CMakeFiles/imu_test.dir/src/imu.cpp.o: CMakeFiles/imu_test.dir/flags.make
 CMakeFiles/imu_test.dir/src/imu.cpp.o: ../src/imu.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imu_test.dir/src/imu.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_test.dir/src/imu.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/imu_test.dir/src/imu.cpp.o -c /home/zejie123/Desktop/imu_qt/src/imu.cpp
 
 CMakeFiles/imu_test.dir/src/imu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imu_test.dir/src/imu.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/imu.cpp > CMakeFiles/imu_test.dir/src/imu.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zejie123/Desktop/imu_qt/src/imu.cpp > CMakeFiles/imu_test.dir/src/imu.cpp.i
 
 CMakeFiles/imu_test.dir/src/imu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imu_test.dir/src/imu.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/imu.cpp -o CMakeFiles/imu_test.dir/src/imu.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zejie123/Desktop/imu_qt/src/imu.cpp -o CMakeFiles/imu_test.dir/src/imu.cpp.s
 
 # Object files for target imu_test
 imu_test_OBJECTS = \
@@ -109,10 +109,14 @@ imu_test: CMakeFiles/imu_test.dir/imu_test_autogen/mocs_compilation.cpp.o
 imu_test: CMakeFiles/imu_test.dir/src/imu_test.cpp.o
 imu_test: CMakeFiles/imu_test.dir/src/imu.cpp.o
 imu_test: CMakeFiles/imu_test.dir/build.make
-imu_test: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
 imu_test: /usr/lib/x86_64-linux-gnu/libQt5SerialPort.so.5.12.8
+imu_test: /usr/lib/x86_64-linux-gnu/libQt5QuickWidgets.so.5.12.8
 imu_test: /usr/lib/x86_64-linux-gnu/libQt5Test.so.5.12.8
+imu_test: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8
+imu_test: /usr/lib/x86_64-linux-gnu/libQt5Quick.so.5.12.8
 imu_test: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8
+imu_test: /usr/lib/x86_64-linux-gnu/libQt5Qml.so.5.12.8
+imu_test: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.12.8
 imu_test: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8
 imu_test: CMakeFiles/imu_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable imu_test"

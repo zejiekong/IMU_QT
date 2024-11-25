@@ -7,6 +7,3 @@
  uic:ui_gui.h
 /home/zejie123/Desktop/imu_qt/include/imu.h
  mmc:Q_OBJECT
-/home/zejie123/Desktop/imu_qt/include/imu_qt.h
- mmc:Q_OBJECT
-/home/zejie123/Desktop/imu_qt/src/imu_qt.cpp

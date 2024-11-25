@@ -24,10 +24,11 @@ class Imu : public QSerialPort
     public:
         explicit Imu(QObject *parent=nullptr);
         bool checkSum(QByteArray data);
-        float* parseAcc(QByteArray data);
-        float* parseAngVel(QByteArray data);
-        float* parseAngle(QByteArray data);
-        float* parseMag(QByteArray data);
+        void parseByte(float* imu_data, QByteArray data);
+        bool parseAcc(float* imu_data,QByteArray data);
+        bool parseAngVel(float* imu_data,QByteArray data);
+        bool parseAngle(float* imu_data,QByteArray data);
+        bool parseMag(float* imu_data,QByteArray data);
 
     public slots:
         void autoPortScanner(bool checked=false); //signal to window
@@ -39,10 +40,7 @@ class Imu : public QSerialPort
         void dataParsed(int type, float* data);
         void statusUpdate(QString status);
     private:
-        float* m_acc;
-        float* m_vel;
-        float* m_angle;
-        float* m_mag;
+        float m_acc[3],m_angle[3],m_vel[3],m_mag[3];
 };
 
 #endif

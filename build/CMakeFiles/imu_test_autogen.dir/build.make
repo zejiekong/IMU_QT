@@ -55,7 +55,7 @@ include CMakeFiles/imu_test_autogen.dir/progress.make
 
 CMakeFiles/imu_test_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zejie123/Desktop/imu_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target imu_test"
-	/usr/bin/cmake -E cmake_autogen /home/zejie123/Desktop/imu_qt/build/CMakeFiles/imu_test_autogen.dir/AutogenInfo.json Debug
+	/usr/bin/cmake -E cmake_autogen /home/zejie123/Desktop/imu_qt/build/CMakeFiles/imu_test_autogen.dir/AutogenInfo.json ""
 
 imu_test_autogen: CMakeFiles/imu_test_autogen
 imu_test_autogen: CMakeFiles/imu_test_autogen.dir/build.make
