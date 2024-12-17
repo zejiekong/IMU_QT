@@ -44,12 +44,13 @@ void Imu::start()
     if(this->open(QIODevice::ReadWrite))
     {
         emit statusUpdate("Sensor Connected\n");
-        while(Imu::waitForReadyRead()){}
-        this->parseData();
+        while(Imu::waitForReadyRead())
+        {
+            this->parseData();
+        }
         emit statusUpdate("No Sensor Detected\n");
         this->close();
     }
-
 }
 
 void Imu::parseData()
@@ -95,7 +96,7 @@ bool Imu::checkSum(QByteArray byte)
         sum += byte[i];
     
     }
-    qDebug() << byte.size();
+    //qDebug() << byte.size();
     return sum==byte[10];
 }
 
